@@ -19,6 +19,7 @@ Thumbs.db
 .git*
 npm/
 test/
+assets/
 example/
 .snyk
 .eslintrc

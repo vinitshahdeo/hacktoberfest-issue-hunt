@@ -1,3 +1,7 @@
+<a href="https://vinitshahdeo.dev/hacktoberfest-2021">
+  <img src="./assets/logo.png" width="15%" height="15%"/>
+</a>
+
 # hacktoberfest-issue-hunt 
 
 [![NPM VERSION](http://img.shields.io/npm/v/hacktoberfest-issue-hunt.svg?style=flat&logo=npm)](https://www.npmjs.org/package/hacktoberfest-issue-hunt) [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/inspirational-quotes.svg?style=flat&logo=github)](https://github.com/vinitshahdeo/inspirational-quotes/blob/master/LICENSE) [![Snyk Vulnerabilities for npm package version](https://img.shields.io/snyk/vulnerabilities/npm/hacktoberfest-issue-hunt.svg?color=9cf&logo=snyk)](https://www.npmjs.com/package/hacktoberfest-issue-hunt)
