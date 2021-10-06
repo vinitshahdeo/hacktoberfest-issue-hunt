@@ -1,7 +1,7 @@
 {
   "name": "hacktoberfest-issue-hunt",
   "version": "1.0.0",
-  "description": "Find all the issues labelled as hacktoberfest",
+  "description": "Find all the open issues for hacktoberfest, filter on the basis of language and labels",
   "main": "lib/index.js",
   "scripts": {
     "test-lint": "eslint . --ext .js, ./example --ext .js --color"
@@ -15,14 +15,14 @@
     "issues",
     "beginner-friendly",
     "hunt",
-    "pr"
+    "your first pr"
   ],
   "author": "Vinit Shahdeo <https://github.com/vinitshahdeo>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vinitshahdeo/hacktoberfest-issue-hunt/issues"
   },
-  "homepage": "https://github.com/vinitshahdeo/hacktoberfest-issue-hunt#readme",
+  "homepage": "https://vinitshahdeo.github.io/hacktoberfest-issue-hunt/",
   "dependencies": {
     "@octokit/rest": "18.11.4"
   },
