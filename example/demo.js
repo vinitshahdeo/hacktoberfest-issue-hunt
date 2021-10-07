@@ -1,4 +1,4 @@
-const hacktoberfestIssueHunt = require('../lib/index'),
+const hacktoberfest = require('../lib/index'),
   options = {
     token: 'XXXXXXXXXXXXXXX', // replace it with your token
     labels: 'first-timers-only',
@@ -7,12 +7,12 @@ const hacktoberfestIssueHunt = require('../lib/index'),
   };
 
 // using promises
-hacktoberfestIssueHunt(options)
+hacktoberfest(options)
   .then((issues) => console.log(issues))
   .catch(console.log);
 
 // using callback
-hacktoberfestIssueHunt(options, (err, issues) => {
+hacktoberfest(options, (err, issues) => {
   if (err) {
     console.log(err);
     return;

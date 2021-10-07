@@ -21,13 +21,13 @@ npm install hacktoberfest-issue-hunt
 To use this, you need to supply your [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) by GitHub. You can easily create one [here](https://github.com/settings/tokens/new?scopes=repo).
 
 ```js
-const hacktoberfestIssueHunt = require('hacktoberfest-issue-hunt');
+const hacktoberfest = require('hacktoberfest-issue-hunt');
 ```
 
 #### Using Promise
 
 ```js
-hacktoberfestIssueHunt({ token: 'XXXXXXXX' })
+hacktoberfest({ token: 'XXXXXXXX' })
   .then((issues) => {
     // issues -> list of hacktoberfest issues
   })
@@ -37,7 +37,7 @@ hacktoberfestIssueHunt({ token: 'XXXXXXXX' })
 #### Using callback
 
 ```js
-hacktoberfestIssueHunt({ token: 'XXXXXXXX' }, (err, issues) => {
+hacktoberfest({ token: 'XXXXXXXX' }, (err, issues) => {
   if (err) {
     console.log(err);
     return;
@@ -93,12 +93,12 @@ const options = {
 };
 
 // using promises
-hacktoberfestIssueHunt(options)
+hacktoberfest(options)
   .then((issues) => console.log(issues))
   .catch(console.log);
 
 // using callback
-hacktoberfestIssueHunt(options, (err, issues) => {
+hacktoberfest(options, (err, issues) => {
   if (err) {
     console.log(err);
     return;
