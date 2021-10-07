@@ -123,10 +123,15 @@ Please refer the table below to explore available options.
 - 🚨 **Please check out [discussions](https://github.com/vinitshahdeo/hacktoberfest-issue-hunt/discussions/3) to find out how you can contribute.**
 - :bulb: Refer [`IDEAS.md`](./IDEAS.md) to explore what you can build using this module. Your innovative ideas are most welcome.
 
-
 ## Author
 
 Vinit Shahdeo | **[@vinitshahdeo](https://github.com/vinitshahdeo)**
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo.svg?style=social)](https://twitter.com/Vinit_Shahdeo)
+
+## Support
+
+Show some 💙 by [starring](https://github.com/vinitshahdeo/hacktoberfest-issue-hunt/stargazers) this repository or [buying me a coffee](https://www.buymeacoffee.com/vinitshahdeo)!
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/vinitshahdeo)
 
