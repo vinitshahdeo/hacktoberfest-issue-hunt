@@ -27,3 +27,4 @@ example/
 .nycrc.js
 .editorconfig
 .jsdoc-config.json
+_config.yml
