@@ -4,7 +4,8 @@
   "description": "Find all the open issues for hacktoberfest, filter on the basis of language and labels",
   "main": "lib/index.js",
   "scripts": {
-    "test-lint": "eslint . --ext .js, ./example --ext .js --color"
+    "test-lint": "eslint . --ext .js, ./example --ext .js --color",
+    "demo": "node example/demo.js"
   },
   "repository": {
     "type": "git",
