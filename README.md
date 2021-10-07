@@ -47,8 +47,32 @@ hacktoberfestIssueHunt({ token: 'XXXXXXXX' }, (err, issues) => {
 
 ```
 
+**Sample response**
 
-Check out examples [here](./example/demo.js).
+```js
+
+[
+  {
+    title: "Add More Inspirational Quotes",
+    link: "https://github.com/vinitshahdeo/inspirational-quotes/issues/4",
+  },
+  {
+    title: "Create a React App to filter Hacktoberfest issues on the basis of languages and labels",
+    link: "https://github.com/vinitshahdeo/hacktoberfest-issue-hunt/issues/1",
+  }
+]
+
+```
+
+## Demo
+
+You can try it out using `npm run demo` or check out the examples [here](./example/demo.js).
+
+```bash
+git clone https://github.com/vinitshahdeo/hacktoberfest-issue-hunt.git
+cd hacktoberfest-issue-hunt
+npm run demo
+```
 
 ## Options
 
@@ -86,6 +110,7 @@ Please refer the table below to explore available options.
 | `labels`  | Filter issues based on labels e.g. `first timers only`, `help wanted`, `good first issues`, etc.  |
 | `language` | Filter issues based on language e.g. `js`, `go`, `python`, etc.  |
 | `limit`  | Maximum number of issues |
+| `compelete`  | Default is `false`. Pass it as `true` if you want to receive the complete data about an issue, otherwise it will return only `title` and `link` to the issue |
 
 > _Currently the max limit is 100 as the paginated response is not supported._
 
