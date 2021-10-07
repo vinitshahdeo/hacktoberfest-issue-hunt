@@ -18,7 +18,7 @@ npm install hacktoberfest-issue-hunt
 
 ## Usage
 
-To use this, you need to supply your [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). You can easily create one [here](https://github.com/settings/tokens/new?scopes=repo).
+To use this, you need to supply your [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) by GitHub. You can easily create one [here](https://github.com/settings/tokens/new?scopes=repo).
 
 ```js
 const hacktoberfestIssueHunt = require('hacktoberfest-issue-hunt');
