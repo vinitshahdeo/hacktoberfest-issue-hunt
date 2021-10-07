@@ -66,13 +66,17 @@ hacktoberfestIssueHunt({ token: 'XXXXXXXX' }, (err, issues) => {
 
 ## Demo
 
-You can try it out using `npm run demo` or check out the examples [here](./example/demo.js).
-
 ```bash
 git clone https://github.com/vinitshahdeo/hacktoberfest-issue-hunt.git
 cd hacktoberfest-issue-hunt
 npm run demo
 ```
+
+Replace `XXXXXXXXXXXXXXX` with your personal access token inside [`example/demo.js`](https://github.com/vinitshahdeo/hacktoberfest-issue-hunt/blob/main/example/demo.js#L3) You can try it out using `npm run demo` or check out the examples [here](./example/demo.js).
+
+- [Learn more](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) about personal access token
+- [Generate](https://github.com/settings/tokens/new?scopes=repo) your personal access token
+
 
 ## Options
 
