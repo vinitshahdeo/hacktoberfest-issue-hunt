@@ -21,14 +21,47 @@ npm install hacktoberfest-issue-hunt
 To use this, you need to supply your [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). You can easily create one [here](https://github.com/settings/tokens/new?scopes=repo).
 
 ```js
+const hacktoberfestIssueHunt = require('hacktoberfest-issue-hunt');
+```
 
-const hacktoberfestIssueHunt = require('hacktoberfest-issue-hunt'),
-  options = {
-    token: 'XXXXXXXXXXXXXXX', // replace it with your token
-    labels: 'first-timers-only',
-    limit: 10,
-    language: 'js',
-  };
+#### Using Promise
+
+```js
+hacktoberfestIssueHunt({ token: 'XXXXXXXX' })
+  .then((issues) => {
+    // issues -> list of hacktoberfest issues
+  })
+  .catch(console.log);
+```
+
+#### Using callback
+
+```js
+hacktoberfestIssueHunt({ token: 'XXXXXXXX' }, (err, issues) => {
+  if (err) {
+    console.log(err);
+    return;
+  }
+  console.log(issues);
+});
+
+```
+
+
+Check out examples [here](./example/demo.js).
+
+## Options
+
+Additionally, you can provide the following options to filter the `hacktoberfest` issues based on labels and language.
+
+```js
+
+const options = {
+  token: 'XXXXXXXXXXXXXXX', // replace it with your token
+  labels: 'first-timers-only',
+  limit: 10,
+  language: 'js',
+};
 
 // using promises
 hacktoberfestIssueHunt(options)
@@ -46,11 +79,7 @@ hacktoberfestIssueHunt(options, (err, issues) => {
 
 ```
 
-Check out examples [here](./example/demo.js).
-
-## Options
-
-Additionally, you can provide the following options to filter the `hacktoberfest` issues based on labels and language.
+Please refer the table below to explore available options.
 
 | Option  | Description  |
 |---|---|
@@ -59,6 +88,7 @@ Additionally, you can provide the following options to filter the `hacktoberfest
 | `limit`  | Maximum number of issues |
 
 > _Currently the max limit is 100 as the paginated response is not supported._
+
 
 ## Author
 
