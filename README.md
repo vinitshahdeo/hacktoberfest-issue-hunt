@@ -18,7 +18,7 @@ npm install hacktoberfest-issue-hunt
 
 ## Usage
 
-To use this, you need to supply your [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). You can easily create one [here](https://github.com/settings/tokens/new?scopes=repo).
+To use this, you need to supply your [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) by GitHub. You can easily create one [here](https://github.com/settings/tokens/new?scopes=repo).
 
 ```js
 const hacktoberfestIssueHunt = require('hacktoberfest-issue-hunt');
@@ -111,7 +111,7 @@ Please refer the table below to explore available options.
 
 | Option  | Description  |
 |---|---|
-| `labels`  | Filter issues based on labels e.g. `first timers only`, `help wanted`, `good first issues`, etc.  |
+| `labels`  | Filter issues based on labels e.g. `first timers only`, `help wanted`, `good first issues`, etc. Pass a comma-separated string containing the labels  |
 | `language` | Filter issues based on language e.g. `js`, `go`, `python`, etc.  |
 | `limit`  | Maximum number of issues |
 | `compelete`  | Default is `false`. Pass it as `true` if you want to receive the complete data about an issue, otherwise it will return only `title` and `link` to the issue |
