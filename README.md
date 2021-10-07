@@ -89,6 +89,7 @@ const options = {
   labels: 'first-timers-only',
   limit: 10,
   language: 'js',
+  complete: true
 };
 
 // using promises
