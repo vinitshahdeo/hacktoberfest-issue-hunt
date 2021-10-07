@@ -22,7 +22,7 @@ test/
 assets/
 example/
 .snyk
-.eslintrc
+.eslintrc.js
 .eslintignore
 .nycrc.js
 .editorconfig
