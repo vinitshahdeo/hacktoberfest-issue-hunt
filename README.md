@@ -118,6 +118,11 @@ Please refer the table below to explore available options.
 
 > _Currently the max limit is 100 as the paginated response is not supported._
 
+## Contributing
+
+- 🚨 **Please check out [discussions](https://github.com/vinitshahdeo/hacktoberfest-issue-hunt/discussions/3) to find out how you can contribute.**
+- :bulb: Refer [`IDEAS.md`](./IDEAS.md) to explore what you can build using this module. Your innovative ideas are most welcome.
+
 
 ## Author
 
