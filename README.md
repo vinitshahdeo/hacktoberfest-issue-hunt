@@ -122,11 +122,11 @@ Please refer the table below to explore available options.
 ## Contributing
 
 - 🚨 **Please check out [discussions](https://github.com/vinitshahdeo/hacktoberfest-issue-hunt/discussions/3) to find out how you can contribute.**
-- :bulb: Refer [`IDEAS.md`](./IDEAS.md) to explore what you can build using this module. Your innovative ideas are most welcome.
+- 💡 Refer [`IDEAS.md`](./IDEAS.md) to explore what you can build using this module. Your innovative ideas are most welcome.
 
 ## Author
 
-Vinit Shahdeo | **[@vinitshahdeo](https://github.com/vinitshahdeo)**
+Vinit Shahdeo ❯ **[@vinitshahdeo](https://github.com/vinitshahdeo)**
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo.svg?style=social)](https://twitter.com/Vinit_Shahdeo)
 
