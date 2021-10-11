@@ -84,6 +84,7 @@ Replace `XXXXXXXXXXXXXXX` with your personal access token inside [`example/demo.
 
 - [Learn more](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) about personal access token
 - [Generate](https://github.com/settings/tokens/new?scopes=repo) your personal access token
+- You can view it in action here: [hacktoberfest-issues-hunt.netlify.app](https://hacktoberfest-issues-hunt.netlify.app/)
 
 
 ## Options
@@ -128,6 +129,11 @@ Please refer the table below to explore available options.
 | `complete`  | Default is `false`. Pass it as `true` if you want to receive the complete info about an issue. Refer [`fixtures/data.js`](./fixtures/data.js) to learn more about the complete issue object |
 
 > _Currently the max limit is 100 as the paginated response is not supported._
+
+## Sample Applications
+
+* A React App created by [@lbaweja1999](https://github.com/lbaweja1999/hacktoberfest-issue-hunt-react-app). **View the live demo [here](https://hacktoberfest-issues-hunt.netlify.app/)**.
+* A React App created by [@heysujal](https://github.com/heysujal/hacktoberfest-issue). **View the live demo [here](https://hacktoberfest-issues.netlify.app/)**.
 
 ## Contributing
 
