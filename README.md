@@ -55,10 +55,18 @@ hacktoberfest({ token: 'XXXXXXXX' }, (err, issues) => {
   {
     title: "Add More Inspirational Quotes",
     link: "https://github.com/vinitshahdeo/inspirational-quotes/issues/4",
+    labels: ['good first issue', 'help wanted', 'hacktoberfest'],
+    state: 'open',
+    comments: 2,
+    createdAt: 'Monday, October 11th 2021'
   },
   {
     title: "Create a React App to filter Hacktoberfest issues on the basis of languages and labels",
     link: "https://github.com/vinitshahdeo/hacktoberfest-issue-hunt/issues/1",
+    labels: ['good first issue', 'help wanted', 'hacktoberfest'],
+    state: 'open',
+    comments: 5,
+    createdAt: 'Sunday, October 10th 2021'
   }
 ]
 
@@ -76,6 +84,7 @@ Replace `XXXXXXXXXXXXXXX` with your personal access token inside [`example/demo.
 
 - [Learn more](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) about personal access token
 - [Generate](https://github.com/settings/tokens/new?scopes=repo) your personal access token
+- You can view it in action here: [hacktoberfest-issues-hunt.netlify.app](https://hacktoberfest-issues-hunt.netlify.app/)
 
 
 ## Options
@@ -89,7 +98,8 @@ const options = {
   labels: 'first-timers-only',
   limit: 10,
   language: 'js',
-  complete: true
+  ignoreClosed: false, // default is true
+  complete: true // default is false
 };
 
 // using promises
@@ -115,9 +125,16 @@ Please refer the table below to explore available options.
 | `labels`  | Filter issues based on labels e.g. `first timers only`, `help wanted`, `good first issues`, etc. Pass a comma-separated string containing the labels  |
 | `language` | Filter issues based on language e.g. `js`, `go`, `python`, etc.  |
 | `limit`  | Maximum number of issues |
-| `complete`  | Default is `false`. Pass it as `true` if you want to receive the complete data about an issue, otherwise it will return only `title` and `link` to the issue |
+| `ignoreClosed`  | Default is `true`. Pass it as `false` if you want to fetch closed issues as well otherwise it will return only `open` issues |
+| `complete`  | Default is `false`. Pass it as `true` if you want to receive the complete info about an issue. Refer [`fixtures/data.js`](./fixtures/data.js) to learn more about the complete issue object |
 
 > _Currently the max limit is 100 as the paginated response is not supported._
+
+## Sample Applications
+
+* A React App created by [@lbaweja1999](https://github.com/lbaweja1999/hacktoberfest-issue-hunt-react-app). **View the live demo [here](https://hacktoberfest-issues-hunt.netlify.app/)**.
+* A React App created by [@heysujal](https://github.com/heysujal/hacktoberfest-issue). **View the live demo [here](https://hacktoberfest-issues.netlify.app/)**.
+* [Click here](https://github.com/vinitshahdeo/hacktoberfest-issue-hunt/network/dependents?dependent_type=REPOSITORY) to view all.
 
 ## Contributing
 
