@@ -61,8 +61,7 @@ hacktoberfest({ token: 'XXXXXXXX' }, (err, issues) => {
     createdAt: "Monday, October 11th 2021",
   },
   {
-    title:
-      "Create a React App to filter Hacktoberfest issues on the basis of languages and labels",
+    title: "Create a React App to filter Hacktoberfest issues on the basis of languages and labels",
     link: "https://github.com/vinitshahdeo/hacktoberfest-issue-hunt/issues/1",
     labels: ["good first issue", "help wanted", "hacktoberfest"],
     state: "open",
