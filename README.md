@@ -72,6 +72,8 @@ hacktoberfest({ token: 'XXXXXXXX' }, (err, issues) => {
 
 ```
 
+Kindly refer to the [documentation](https://vinitshahdeo.github.io/hacktoberfest-issue-hunt/) to learn more.
+
 ## Demo
 
 ```bash
