@@ -55,10 +55,18 @@ hacktoberfest({ token: 'XXXXXXXX' }, (err, issues) => {
   {
     title: "Add More Inspirational Quotes",
     link: "https://github.com/vinitshahdeo/inspirational-quotes/issues/4",
+    labels: ['good first issue', 'help wanted', 'hacktoberfest'],
+    state: 'open',
+    comments: 2,
+    createdAt: 'Monday, October 11th 2021'
   },
   {
     title: "Create a React App to filter Hacktoberfest issues on the basis of languages and labels",
     link: "https://github.com/vinitshahdeo/hacktoberfest-issue-hunt/issues/1",
+    labels: ['good first issue', 'help wanted', 'hacktoberfest'],
+    state: 'open',
+    comments: 5,
+    createdAt: 'Sunday, October 10th 2021'
   }
 ]
 
@@ -89,7 +97,8 @@ const options = {
   labels: 'first-timers-only',
   limit: 10,
   language: 'js',
-  complete: true
+  ignoreClosed: false, // default is true
+  complete: true // default is false
 };
 
 // using promises
@@ -115,7 +124,8 @@ Please refer the table below to explore available options.
 | `labels`  | Filter issues based on labels e.g. `first timers only`, `help wanted`, `good first issues`, etc. Pass a comma-separated string containing the labels  |
 | `language` | Filter issues based on language e.g. `js`, `go`, `python`, etc.  |
 | `limit`  | Maximum number of issues |
-| `complete`  | Default is `false`. Pass it as `true` if you want to receive the complete data about an issue, otherwise it will return only `title` and `link` to the issue |
+| `ignoreClosed`  | Default is `true`. Pass it as `false` if you want to fetch closed issues as well otherwise it will return only `open` issues |
+| `complete`  | Default is `false`. Pass it as `true` if you want to receive the complete info about an issue. Refer [`fixtures/data.js`](./fixtures/data.js) to learn more about the complete issue object |
 
 > _Currently the max limit is 100 as the paginated response is not supported._
 

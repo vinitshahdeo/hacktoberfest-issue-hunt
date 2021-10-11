@@ -1,0 +1,70 @@
+[
+    {
+      url: "https://api.github.com/repos/layer5io/discuss-twitter/issues/5",
+      repository_url: "https://api.github.com/repos/layer5io/discuss-twitter",
+      labels_url:
+        "https://api.github.com/repos/layer5io/discuss-twitter/issues/5/labels{/name}",
+      comments_url:
+        "https://api.github.com/repos/layer5io/discuss-twitter/issues/5/comments",
+      events_url:
+        "https://api.github.com/repos/layer5io/discuss-twitter/issues/5/events",
+      html_url: "https://github.com/layer5io/discuss-twitter/issues/5",
+      id: 1022429202,
+      node_id: "I_kwDOF7SADM488QgS",
+      number: 5,
+      title: "[Docs] Replace image in the README file",
+      user: {
+        login: "iambami",
+        id: 64528871,
+        node_id: "MDQ6VXNlcjY0NTI4ODcx",
+        avatar_url: "https://avatars.githubusercontent.com/u/64528871?v=4",
+        gravatar_id: "",
+        url: "https://api.github.com/users/iambami",
+        html_url: "https://github.com/iambami",
+        followers_url: "https://api.github.com/users/iambami/followers",
+        following_url:
+          "https://api.github.com/users/iambami/following{/other_user}",
+        gists_url: "https://api.github.com/users/iambami/gists{/gist_id}",
+        starred_url:
+          "https://api.github.com/users/iambami/starred{/owner}{/repo}",
+        subscriptions_url: "https://api.github.com/users/iambami/subscriptions",
+        organizations_url: "https://api.github.com/users/iambami/orgs",
+        repos_url: "https://api.github.com/users/iambami/repos",
+        events_url: "https://api.github.com/users/iambami/events{/privacy}",
+        received_events_url:
+          "https://api.github.com/users/iambami/received_events",
+        type: "User",
+        site_admin: false,
+      },
+      labels: [[Object], [Object], [Object], [Object]],
+      state: "open",
+      locked: false,
+      assignee: null,
+      assignees: [],
+      milestone: null,
+      comments: 0,
+      created_at: "2021-10-11T08:44:43Z",
+      updated_at: "2021-10-11T08:44:43Z",
+      closed_at: null,
+      author_association: "MEMBER",
+      active_lock_reason: null,
+      body: "**Current  #State:**\r\nSee the white background between the man and woman in the image below that needs to be updated to a better version in the README file.\r\n\r\n![meshery image issue](https://user-images.githubusercontent.com/64528871/135849111-baf2b2c0-abfa-42f7-8600-e794d23649d2.PNG)\r\n\r\n\r\n**Desired State:**\r\nThis is the desired image.\r\n![meshery image](https://user-images.githubusercontent.com/64528871/135860278-0abd25c8-6110-4401-8c06-e8796759fa7d.PNG)\r\n\r\nReplace with the image below.\r\n\r\n![layer5-community-sign](https://user-images.githubusercontent.com/64528871/135861003-17d1d08a-d92f-48c4-a447-3a2c9cadef3e.png)\r\n\r\n---\r\n**Contributor Resources**\r\n- [Meshery documentation site](https://docs.meshery.io/)\r\n- [Meshery documentation source](https://github.com/layer5io/meshery/tree/master/docs)\r\n- [Instructions for contributing to documentation](https://github.com/layer5io/meshery/blob/master/CONTRIBUTING.md#documentation-contribution-flow)\r\n",
+      reactions: {
+        url: "https://api.github.com/repos/layer5io/discuss-twitter/issues/5/reactions",
+        total_count: 0,
+        "+1": 0,
+        "-1": 0,
+        laugh: 0,
+        hooray: 0,
+        confused: 0,
+        heart: 0,
+        rocket: 0,
+        eyes: 0,
+      },
+      timeline_url:
+        "https://api.github.com/repos/layer5io/discuss-twitter/issues/5/timeline",
+      performed_via_github_app: null,
+      score: 1,
+    },
+]
+  

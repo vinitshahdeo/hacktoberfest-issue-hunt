@@ -25,7 +25,8 @@
   },
   "homepage": "https://vinitshahdeo.github.io/hacktoberfest-issue-hunt/",
   "dependencies": {
-    "@octokit/rest": "18.11.4"
+    "@octokit/rest": "18.11.4",
+    "moment": "2.29.1"
   },
   "devDependencies": {
     "eslint": "^7.32.0"
