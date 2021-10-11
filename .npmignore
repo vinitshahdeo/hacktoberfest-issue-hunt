@@ -21,6 +21,7 @@ npm/
 test/
 assets/
 example/
+fixtures/
 .snyk
 .eslintrc.js
 .eslintignore
