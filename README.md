@@ -97,7 +97,7 @@ Additionally, you can provide the following options to filter the `hacktoberfest
 
 const options = {
   token: 'XXXXXXXXXXXXXXX', // replace it with your token
-  labels: 'first-timers-only',
+  labels: ["good first issue", "help wanted", "hacktoberfest"],
   limit: 10,
   language: 'js',
   ignoreClosed: false, // default is true
