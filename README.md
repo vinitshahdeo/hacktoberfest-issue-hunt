@@ -8,7 +8,7 @@
 
 This module can be used to **list all the open issues for `hacktoberfest` on GitHub**. You can resolve those issues to complete your **Hacktoberfest** challenge. Learn more about **[Hacktoberfest](https://vinitshahdeo.dev/hacktoberfest-2021)**.
 
-**[View Live Demo](https://hacktoberfest-issues-hunt.netlify.app/) | [Documentation](https://vinitshahdeo.github.io/hacktoberfest-issue-hunt/) | [Check on NPM](https://www.npmjs.com/package/hacktoberfest-issue-hunt)**
+**[View Live Demo](https://hacktoberfest-issues-hunt.netlify.app/) • [Documentation](https://vinitshahdeo.github.io/hacktoberfest-issue-hunt/) • [Check on NPM](https://www.npmjs.com/package/hacktoberfest-issue-hunt)**
 
 [![NPM](https://nodei.co/npm/hacktoberfest-issue-hunt.png?compact=true)](https://nodei.co/npm/hacktoberfest-issue-hunt/)
 
