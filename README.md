@@ -8,7 +8,7 @@
 
 This module can be used to **list all the open issues for `hacktoberfest` on GitHub**. You can resolve those issues to complete your **Hacktoberfest** challenge. Learn more about **[Hacktoberfest](https://vinitshahdeo.dev/hacktoberfest-2021)**.
 
-**[View Live Demo](https://hacktoberfest-issues-hunt.netlify.app/) • [Documentation](https://vinitshahdeo.github.io/hacktoberfest-issue-hunt/) • [Check on NPM](https://www.npmjs.com/package/hacktoberfest-issue-hunt)**
+**[View Live Demo](https://hacktoberfest-issues.vercel.app/) • [Documentation](https://vinitshahdeo.github.io/hacktoberfest-issue-hunt/) • [Check on NPM](https://www.npmjs.com/package/hacktoberfest-issue-hunt)**
 
 [![NPM](https://nodei.co/npm/hacktoberfest-issue-hunt.png?compact=true)](https://nodei.co/npm/hacktoberfest-issue-hunt/)
 
@@ -138,6 +138,7 @@ Please refer the table below to explore available options.
 
 [![npm](https://img.shields.io/npm/dy/hacktoberfest-issue-hunt.svg?logo=npm&color=yellow)](https://www.npmjs.com/package/hacktoberfest-issue-hunt)
 
+* A React App created by [@evertcode](https://github.com/evertcode/hacktoberfest-issues-hunt-search). **View the live demo [here](https://hacktoberfest-issues.vercel.app/).
 * A React App created by [@lbaweja1999](https://github.com/lbaweja1999/hacktoberfest-issue-hunt-react-app). **View the live demo [here](https://hacktoberfest-issues-hunt.netlify.app/)**.
 * A React App created by [@heysujal](https://github.com/heysujal/hacktoberfest-issue). **View the live demo [here](https://hacktoberfest-issues.netlify.app/)**.
 * [Click here](https://github.com/vinitshahdeo/hacktoberfest-issue-hunt/network/dependents?dependent_type=REPOSITORY) to view all.
