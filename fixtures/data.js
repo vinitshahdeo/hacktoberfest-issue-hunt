@@ -2,12 +2,9 @@
     {
       url: "https://api.github.com/repos/layer5io/discuss-twitter/issues/5",
       repository_url: "https://api.github.com/repos/layer5io/discuss-twitter",
-      labels_url:
-        "https://api.github.com/repos/layer5io/discuss-twitter/issues/5/labels{/name}",
-      comments_url:
-        "https://api.github.com/repos/layer5io/discuss-twitter/issues/5/comments",
-      events_url:
-        "https://api.github.com/repos/layer5io/discuss-twitter/issues/5/events",
+      labels_url: "https://api.github.com/repos/layer5io/discuss-twitter/issues/5/labels{/name}",
+      comments_url: "https://api.github.com/repos/layer5io/discuss-twitter/issues/5/comments",
+      events_url: "https://api.github.com/repos/layer5io/discuss-twitter/issues/5/events",
       html_url: "https://github.com/layer5io/discuss-twitter/issues/5",
       id: 1022429202,
       node_id: "I_kwDOF7SADM488QgS",
@@ -22,17 +19,14 @@
         url: "https://api.github.com/users/iambami",
         html_url: "https://github.com/iambami",
         followers_url: "https://api.github.com/users/iambami/followers",
-        following_url:
-          "https://api.github.com/users/iambami/following{/other_user}",
+        following_url: "https://api.github.com/users/iambami/following{/other_user}",
         gists_url: "https://api.github.com/users/iambami/gists{/gist_id}",
-        starred_url:
-          "https://api.github.com/users/iambami/starred{/owner}{/repo}",
+        starred_url: "https://api.github.com/users/iambami/starred{/owner}{/repo}",
         subscriptions_url: "https://api.github.com/users/iambami/subscriptions",
         organizations_url: "https://api.github.com/users/iambami/orgs",
         repos_url: "https://api.github.com/users/iambami/repos",
         events_url: "https://api.github.com/users/iambami/events{/privacy}",
-        received_events_url:
-          "https://api.github.com/users/iambami/received_events",
+        received_events_url: "https://api.github.com/users/iambami/received_events",
         type: "User",
         site_admin: false,
       },
@@ -61,8 +55,7 @@
         rocket: 0,
         eyes: 0,
       },
-      timeline_url:
-        "https://api.github.com/repos/layer5io/discuss-twitter/issues/5/timeline",
+      timeline_url: "https://api.github.com/repos/layer5io/discuss-twitter/issues/5/timeline",
       performed_via_github_app: null,
       score: 1,
     },
