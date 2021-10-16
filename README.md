@@ -88,7 +88,9 @@ Replace `XXXXXXXXXXXXXXX` with your personal access token inside [`example/demo.
 
 - [Learn more](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) about personal access token
 - [Generate](https://github.com/settings/tokens/new?scopes=repo) your personal access token
-- You can view it in action here: [hacktoberfest-issues-hunt.netlify.app](https://hacktoberfest-issues-hunt.netlify.app/)
+- You can view it in action below:
+  - [hacktoberfest-issues-hunt.netlify.app](https://hacktoberfest-issues-hunt.netlify.app/)
+  - [hacktoberfest-issues.vercel.app](https://hacktoberfest-issues.vercel.app/)
 
 
 ## Options
