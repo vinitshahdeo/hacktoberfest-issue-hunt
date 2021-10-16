@@ -1,6 +1,6 @@
 {
   "name": "hacktoberfest-issue-hunt",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Find all the open issues for hacktoberfest, filter on the basis of language and labels",
   "main": "lib/index.js",
   "scripts": {
