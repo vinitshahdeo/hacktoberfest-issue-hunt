@@ -49,6 +49,19 @@ hacktoberfest({ token: 'XXXXXXXX' }, (err, issues) => {
 
 ```
 
+#### Using Async/await
+
+```js
+(async () => {
+  try {
+    let issues = await hacktoberfest({ token: 'XXXXXXXX' });
+    console.log(issues);
+  } catch (err) {
+    // handle errors here
+  }
+})();
+```
+
 **Sample response**
 
 ```js
