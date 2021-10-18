@@ -88,6 +88,7 @@ Replace `XXXXXXXXXXXXXXX` with your personal access token inside [`example/demo.
 
 - [Learn more](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) about personal access token
 - [Generate](https://github.com/settings/tokens/new?scopes=repo) your personal access token
+- [**SECURITY WARNING**] Never push your token on GitHub. It "acts as a password" coupled with rights which can be revoked. Please revoke/delete your token if you've committed by mistake.
 - You can view it in action below:
   - [hacktoberfest-issues-hunt.netlify.app](https://hacktoberfest-issues-hunt.netlify.app/)
   - [hacktoberfest-issues.vercel.app](https://hacktoberfest-issues.vercel.app/)
