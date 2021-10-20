@@ -18,6 +18,12 @@ This module can be used to **list all the open issues for `hacktoberfest` on Git
 npm install hacktoberfest-issue-hunt
 ```
 
+OR
+
+```bash
+yarn add hacktoberfest-issue-hunt
+```
+
 ## Usage
 
 To use this, you need to supply your [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) by GitHub. You can easily create one [here](https://github.com/settings/tokens/new?scopes=repo).

@@ -30,3 +30,4 @@ fixtures/
 .jsdoc-config.json
 _config.yml
 IDEAS.md
+build/
