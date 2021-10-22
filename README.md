@@ -4,7 +4,8 @@
 
 # hacktoberfest-issue-hunt 
 
-[![NPM VERSION](http://img.shields.io/npm/v/hacktoberfest-issue-hunt.svg?style=flat&logo=npm)](https://www.npmjs.org/package/hacktoberfest-issue-hunt) [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/inspirational-quotes.svg?style=flat&logo=github)](https://github.com/vinitshahdeo/inspirational-quotes/blob/master/LICENSE) [![Snyk Vulnerabilities for npm package version](https://img.shields.io/snyk/vulnerabilities/npm/hacktoberfest-issue-hunt.svg?color=9cf&logo=snyk)](https://www.npmjs.com/package/hacktoberfest-issue-hunt)
+[![NPM VERSION](http://img.shields.io/npm/v/hacktoberfest-issue-hunt.svg?style=flat&logo=npm)](https://www.npmjs.org/package/hacktoberfest-issue-hunt) [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/inspirational-quotes.svg?style=flat&logo=github)](https://github.com/vinitshahdeo/inspirational-quotes/blob/master/LICENSE) [![Snyk Vulnerabilities for npm package version](https://img.shields.io/snyk/vulnerabilities/npm/hacktoberfest-issue-hunt.svg?color=9cf&logo=snyk)](https://www.npmjs.com/package/hacktoberfest-issue-hunt) [![npm](https://img.shields.io/npm/dy/hacktoberfest-issue-hunt.svg?logo=npm&color=yellow)](https://www.npmjs.com/package/hacktoberfest-issue-hunt)
+
 
 This module can be used to **list all the open issues for `hacktoberfest` on GitHub**. You can resolve those issues to complete your **Hacktoberfest** challenge. Learn more about **[Hacktoberfest](https://vinitshahdeo.dev/hacktoberfest-2021)**.
 
@@ -157,8 +158,6 @@ Please refer the table below to explore available options.
 > _Currently the max limit is 100 as the paginated response is not supported._
 
 ## Sample Applications
-
-[![npm](https://img.shields.io/npm/dy/hacktoberfest-issue-hunt.svg?logo=npm&color=yellow)](https://www.npmjs.com/package/hacktoberfest-issue-hunt)
 
 * A React App created by [@evertcode](https://github.com/evertcode/hacktoberfest-issues-hunt-search). **View the live demo [here](https://hacktoberfest-issues.vercel.app/)**.
 * A React App created by [@lbaweja1999](https://github.com/lbaweja1999/hacktoberfest-issue-hunt-react-app). **View the live demo [here](https://hacktoberfest-issues-hunt.netlify.app/)**.
