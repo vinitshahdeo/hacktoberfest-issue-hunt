@@ -1,9 +1,9 @@
-const hacktoberfest = require('../lib/index'),
+const hacktoberfest = require("../lib/index"),
   options = {
-    token: 'XXXXXXXXXXXXXXX', // replace it with your token
-    labels: 'first-timers-only',
+    token: "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", // replace it with your token
+    labels: "first-timers-only",
     limit: 10,
-    language: 'js',
+    language: "js",
   };
 
 // using promises
